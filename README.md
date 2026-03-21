@@ -82,7 +82,7 @@ The AI tracks readiness signals over time — response speed, message length, un
 - **Ollama** — No cloud API required. Runs models like Llama 3.1 or Mistral locally
 - **Readiness Engine** — Deterministic logic (not vibes) decides when a user is ready to level up
 
-Full architecture documentation lives in [`/docs/architecture.md`](./docs/architecture.md)
+Full architecture documentation lives in [`architecture.md`](architecture.md)
 
 -----
 
