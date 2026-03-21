@@ -2,7 +2,7 @@
 # Rick
 RICK — Realistic Interactive Companion Kit. An open source AI companion for neurodivergent individuals.
 <p align="center">
-  <img src="assets/logo.png" alt="RICK Logo" width="400">
+  <img src="assets/ricklogo.jpg" alt="RICK Logo" width="400">
 </p>
 # RICK — Realistic Interactive Companion Kit
 
@@ -74,7 +74,7 @@ The AI tracks readiness signals over time — response speed, message length, un
 [ Readiness Engine — Phase Progression Logic ]
 [ Parent Dashboard — Progress & Approvals ]
 ```
-![RICK Architecture Diagram](assets/architecture-diagram.jpg)
+![RICK Architecture Diagram](assets/roadmap.jpg)
 **Key design decisions:**
 
 - **Local-first** — Runs entirely on your own hardware via Docker/Unraid
