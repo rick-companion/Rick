@@ -1,0 +1,165 @@
+# Contributing to RICK
+
+First off — thank you. RICK started as one dad building something for his son. Every person who contributes is helping extend that to another family.
+
+This document tells you how to get involved, regardless of your background.
+
+-----
+
+## We Need More Than Code
+
+Most open source projects think contribution means pull requests. RICK needs a full community. Here’s where you can help:
+
+|Role                 |What You’d Do                                         |
+|---------------------|------------------------------------------------------|
+|**Developers**       |Features, bugfixes, integrations, testing             |
+|**Prompt Engineers** |Refining the autism-informed interaction style        |
+|**SLPs & Clinicians**|Validating the progression model and readiness signals|
+|**Designers**        |UX/UI — this has to be exceptional for our users      |
+|**Families**         |Beta testing and lived experience feedback            |
+|**Hardware Donors**  |GPU nodes and compute for families who can’t self-host|
+|**Researchers**      |Outcome studies and clinical validation               |
+
+No contribution is too small. Fixing a typo in the docs matters. Sharing the project with one family matters.
+
+-----
+
+## Code of Conduct
+
+RICK serves a vulnerable population. We hold ourselves to a high standard.
+
+- Be kind. Always.
+- Assume good intent.
+- Respect the lived experience of autistic individuals and their families — they are the experts on their own lives.
+- Never share or discuss any user data, even anonymized, outside of formal research channels.
+- Disagreements about code or approach are fine. Personal attacks are not.
+
+Violations will result in removal from the project. No exceptions.
+
+-----
+
+## Getting Started
+
+### 1. Fork and clone the repo
+
+```bash
+git clone https://github.com/rick-companion/rick
+cd rick
+```
+
+### 2. Set up your environment
+
+```bash
+# Copy environment config
+cp .env.example .env
+
+# Start local stack
+docker compose up -d
+```
+
+### 3. Install Python dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Verify your setup
+
+```bash
+python -m pytest tests/
+```
+
+Full setup guide: [`/docs/self-hosting.md`](./docs/self-hosting.md)
+
+-----
+
+## How to Contribute
+
+### Reporting Bugs
+
+Open an issue and include:
+
+- What you expected to happen
+- What actually happened
+- Steps to reproduce
+- Your environment (OS, Docker version, GPU if relevant)
+
+Use the `bug` label.
+
+### Suggesting Features
+
+Open an issue with the `enhancement` label. Describe:
+
+- The problem you’re solving
+- Who it helps
+- How you’d approach it
+
+Big ideas are welcome. We’d rather hear an ambitious idea than not.
+
+### Submitting a Pull Request
+
+1. Create a branch from `main`
+   
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+1. Make your changes
+1. Write or update tests where relevant
+1. Keep commits clear and descriptive
+1. Open a PR against `main` with a description of what you changed and why
+1. Reference any related issues
+
+We review all PRs as quickly as we can. We’ll always give you feedback even if we don’t merge immediately.
+
+### Improving Prompts
+
+The autism-informed prompt library lives in `/core/prompts/`. If you have expertise in autism, speech-language pathology, or AI prompt engineering — this is one of the highest-impact areas to contribute.
+
+Open an issue tagged `prompts` before making large changes so we can discuss the approach first.
+
+-----
+
+## Clinical Contributors
+
+If you are an SLP, psychologist, autism researcher, or other clinician:
+
+- Review the progression model in [`/docs/progression-model.md`](./docs/progression-model.md)
+- Open issues tagged `clinical` with feedback, concerns, or validation suggestions
+- Reach out via GitHub Discussions if you’re interested in a formal advisory role
+
+Your expertise shapes whether this actually works. We want you involved early.
+
+-----
+
+## Hardware Donations
+
+RICK is built to run locally — but not every family has a homelab. We’re building a community compute network so families who can’t self-host can still access RICK for free.
+
+If you want to donate hardware or contribute a compute node:
+
+- Open an issue tagged `hardware-donation`
+- Describe what you have available
+- We’ll reach out to discuss how to get you set up
+
+All hardware donors are recognized in [`CONTRIBUTORS.md`](./CONTRIBUTORS.md).
+
+-----
+
+## Recognition
+
+Every contributor is recognized. Always.
+
+- Code contributors appear in [`CONTRIBUTORS.md`](./CONTRIBUTORS.md)
+- Clinical advisors are listed in [`/docs/advisors.md`](./docs/advisors.md)
+- Hardware donors are listed in [`/docs/hardware-donors.md`](./docs/hardware-donors.md)
+- Significant contributors may be invited to join the core maintainer team
+
+-----
+
+## Questions?
+
+Open a GitHub Discussion. We’d rather answer a question than have someone stuck or unsure.
+
+-----
+
+*RICK started with one dad and one kid named Rick. Every contributor adds to that story.*
