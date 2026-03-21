@@ -1,4 +1,4 @@
-
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 # Rick
 RICK — Realistic Interactive Companion Kit. An open source AI companion for neurodivergent individuals.
 <p align="center">
