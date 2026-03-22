@@ -46,9 +46,9 @@ When you submit a PR, please use our template. Ensure you:
 
 ## 🎁 Beyond Code
 If you aren't a developer, you can still contribute by:
-* **Hardware Benchmarking:** Reporting how different models run on your specific GPU/RAM setup.
+* **Hardware Benchmarking:** Reporting how models run on your specific setup.
 * **Clinical Review:** Helping us define "Readiness Signals" in the Wiki.
-* **Sponsorship:** Helping us fund the [Development Rig](https://github.com/rick-companion/Rick#%E2%9A%A1-1-the-development-machine-urgent-priority).
+* **Sponsorship:** Helping us fund the [Development Rig](https://github.com/rick-companion/Rick#%E2%9A%A1-1-the-development-machine-priority). Note: As we are not a 501(c)(3), these are personal gifts to the project.
 
 ---
 
