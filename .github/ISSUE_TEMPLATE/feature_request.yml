@@ -1,0 +1,31 @@
+name: 🚀 Feature or "Level Up" Idea
+description: Propose a new capability or a new developmental milestone for Rick.
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a way to make Rick better!
+  - type: input
+    id: feature_title
+    attributes:
+      label: Feature Name
+      placeholder: e.g., "Add support for PECS-style image responses"
+    validations:
+      required: true
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Which Roadmap Phase does this belong to?
+      options:
+        - Phase 1: Pen Pal (Text-based)
+        - Phase 2: SMS/Texting Integration
+        - Phase 3: Voice/Audio
+        - Phase 4: Full Companion (Avatar)
+        - Other / Not Sure
+  - type: textarea
+    id: clinical_value
+    attributes:
+      label: Developmental/Clinical Value
+      description: How does this help a neurodivergent user or their family?
+      placeholder: "This helps with fine motor skills by..."
