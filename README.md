@@ -145,32 +145,43 @@ Full setup guide: [`/docs/self-hosting.md`](./docs/self-hosting.md)
 
 -----
 
-## Contributing
+## 🎁 Supporting the Project
+Rick is a community-driven, non-profit effort. We are currently in **Phase 0** and require specific resources to build the foundational "Rick" intelligence.
 
-RICK needs more than code. We’re looking for:
+### ⚡ 1. The Development Machine (Urgent Priority)
+To build and test the high-reasoning models required for Rick, we are seeking funding or hardware for a dedicated **Developer Rig**. This system will allow us to run 70B+ parameter models locally to refine Rick's "Readiness Engine."
 
-|Role                 |What You’d Do                                         |
-|---------------------|------------------------------------------------------|
-|**Developers**       |Features, bugfixes, integrations, testing             |
-|**Prompt Engineers** |Refining autism-informed interaction styles           |
-|**SLPs & Clinicians**|Validating the progression model                      |
-|**Designers**        |UX/UI — this has to be exceptional for our users      |
-|**Families**         |Beta testing, lived experience feedback               |
-|**Hardware Donors**  |GPU nodes and compute for families who can’t self-host|
-|**Researchers**      |Outcome studies and clinical validation               |
+**Target Specifications:**
+* **GPU:** Dual NVIDIA RTX 3090/4090 (48GB VRAM total) — *Required for high-reasoning local LLMs.*
+* **RAM:** 128GB DDR5.
+* **Storage:** 2TB Gen5 NVMe (for rapid model swapping).
+* **Compute Node:** A dedicated VPS to host [Claude Code](https://www.anthropic.com/claude) for 24/7 development and repository indexing.
 
-Read [`CONTRIBUTING.md`](./CONTRIBUTING.md) to get started.
+### ☁️ 2. Monetary Donations
+Financial contributions directly accelerate our roadmap by funding:
+* **Claude Code Subscription:** To provide our lead developers with high-capacity AI pair-programming.
+* **Hardware Logistics:** Shipping costs to get donated gear to pilot families.
+* **Infrastructure:** Domain hosting and secure community tools.
 
-All contributors are recognized in [`CONTRIBUTORS.md`](./CONTRIBUTORS.md).
+> **[Support Rick on GitHub Sponsors](https://github.com/sponsors/rick-companion)**
 
------
+---
 
-## Hardware Donations
+## 🤝 How to Contribute
+Beyond funding, we need diverse expertise to make Rick a reality.
 
-RICK runs locally — but not every family has a homelab. We’re building a community compute network so families who can’t self-host can still access RICK for free.
+### Open Roles
+| Role | Primary Focus |
+| :--- | :--- |
+| **Developers** | FastAPI backend, PostgreSQL schema, and React dashboard. |
+| **Prompt Engineers** | Designing autism-informed, interest-led LLM personality frameworks. |
+| **Clinicians/SLPs** | Mapping developmental milestones for the **Readiness Engine**. |
+| **Hardware Donors** | Pledging GPUs or "Mini PCs" for our community compute network. |
 
-If you have hardware to donate or want to contribute a compute node, open an issue tagged `hardware-donation`.
-
+### Technical Onboarding
+1. Check our **[Good First Issues](https://github.com/rick-companion/Rick/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)** for Phase 0 tasks.
+2. Review our **[CONTRIBUTING.md](./CONTRIBUTING.md)** for coding standards and privacy requirements.
+3. All contributors are immortalized in **[CONTRIBUTORS.md](./CONTRIBUTORS.md)**.
 -----
 
 ## License
