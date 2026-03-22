@@ -146,11 +146,15 @@ Full setup guide: [`/docs/self-hosting.md`](./docs/self-hosting.md)
 -----
 
 ## 🎁 Supporting the Project
-Rick is a community-driven, non-profit effort. We are currently in **Phase 0** and require specific resources to build the foundational "Rick" intelligence.
+Rick is a community-driven initiative. We operate with a **"People-over-Profit"** philosophy, focusing entirely on providing tools for neurodivergent families. 
 
-### ⚡ 1. The Development Machine (Urgent Priority)
-To build and test the high-reasoning models required for Rick, we are seeking funding or hardware for a dedicated **Developer Rig**. This system will allow us to run 70B+ parameter models locally to refine Rick's "Readiness Engine."
+### 📢 Transparency & Legal Status
+* **Status:** Rick is currently an independent open-source project. We are **not** a registered 501(c)(3) non-profit at this time.
+* **Funding:** Contributions made via GitHub Sponsors are considered **personal gifts** to fund development (e.g., VPS hosting, Dev Rig hardware). These are not tax-deductible.
+* **Accountability:** 100% of received funds go toward project infrastructure and hardware for the community compute network.
 
+### ⚡ 1. The Development Machine (Priority)
+To build the foundational "Rick" intelligence, we are seeking "gifts" or hardware to complete our **Developer Rig**. This allows us to run high-reasoning models (70B+) locally to refine the Readiness Engine.
 **Target Specifications:**
 * **GPU:** Dual NVIDIA RTX 3090/4090 (48GB VRAM total) — *Required for high-reasoning local LLMs.*
 * **RAM:** 128GB DDR5.
