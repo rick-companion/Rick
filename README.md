@@ -197,6 +197,17 @@ We believe that for AI to be a truly effective support tool, it must be grounded
 * **Interest-Based Alignment:** We focus on "Special Interests" as the primary bridge for connection.
 * **Co-Design:** Our development process involves direct testing and feedback from the Rick (my amazing son) himself.
 
+* # Clinical Partnership & Research Overview
+
+## The Heart of the Project: Authentic Co-Design
+Unlike traditional assistive technology built in a vacuum, **Rick** is co-designed through a unique feedback loop:
+* **The Lead User:** Rick (the founder's son) provides direct testing and feedback, ensuring the interface meets real-world sensory and cognitive needs.
+* **The AI:** Rick (the AI) assists in its own development, refining its communication style based on the Lead User's engagement.
+* **The Parent-Developer:** Bridging the gap between technical possibility and the lived experience of neurodiversity.
+
+## Why this matters for Clinicians
+We aren't just building for "a population"; we are building for a person. This "N-of-1" approach allows us to create a hyper-personalized model that can then be scaled and adapted for others. We believe this "Interest-Led" model is the future of supportive technology.
+
 👉 [View our Clinical Partnership Manifesto & FAQ](./CLINICAL.md)
 -----
 
