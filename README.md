@@ -188,6 +188,18 @@ Beyond funding, we need diverse expertise to make Rick a reality.
 3. All contributors are immortalized in **[CONTRIBUTORS.md](./CONTRIBUTORS.md)**.
 -----
 
+## 🤝 Clinical & Academic Collaboration
+
+We believe that for AI to be a truly effective support tool, it must be grounded in proven psychological and pedagogical frameworks. We are actively seeking to partner with clinicians, researchers, and organizations like the **Burkhart Center for Autism Education & Research**.
+
+**How we differ from traditional apps:**
+* **Non-Replacement Model:** Rick is designed to assist, not replace, human therapists.
+* **Interest-Based Alignment:** We focus on "Special Interests" as the primary bridge for connection.
+* **Co-Design:** Our development process involves direct testing and feedback from the Rick (my amazing son) himself.
+
+👉 [View our Clinical Partnership Manifesto & FAQ](./CLINICAL.md)
+-----
+
 ## License
 
 GNU General Public License v3.0 — see [`LICENSE`](./LICENSE)
